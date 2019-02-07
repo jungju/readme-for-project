@@ -1,1 +1,1 @@
-# Readme for projects
+# Smart README.md
