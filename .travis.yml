@@ -2,4 +2,4 @@ language: GO
 
 script:
   - go build -o rfp
-  - rfp token=GITHUB_TOKEN -user=jungju -repo=readme-for-projects -file=./README.md
+  - ./rfp token=GITHUB_TOKEN -user=jungju -repo=readme-for-projects -file=./README.md
