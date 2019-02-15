@@ -1,6 +1,8 @@
 language: GO
 
-script:
-  - go build -o rfp
-  - ./rfp -token=$GITHUB_TOKEN -user=jungju -repo=readme-for-projects -file=./README.md
-  - cat ./README.md
+deploy:
+  provider: script
+  script:
+    - go build -o rfp
+    - ./rfp -token=$GITHUB_TOKEN -user=jungju -repo=readme-for-projects -file=./README.md
+    - cat ./README.md
