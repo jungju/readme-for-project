@@ -1,4 +1,4 @@
-build:
-	echo "test1"
-install:
-	echo "test2"
+# build:
+# 	echo "test1"
+# install:
+# 	echo "test2"
