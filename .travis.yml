@@ -4,7 +4,7 @@ before_install:
 - cp .netrc ~/.netrc
 - chmod 600 ~/.netrc
 
-gobuild_args: -x -ldflags "-X main.VersionString v1.2.3"
+#gobuild_args: -x -ldflags "-X main.VersionString v1.2.3"
 
 # deploy:
 #   provider: script
