@@ -1,3 +1,3 @@
-build:
-	echo "test"
+# build:
+# 	echo "test"
 install:
