@@ -24,6 +24,10 @@ func main() {
 	flag.Parse()
 
 	if token == nil || *token == "" {
+		*token = os.Getenv("GITHUB_TOKEN")
+	}
+
+	if token == nil || *token == "" {
 		log.Fatal("Require token")
 	} else if user == nil || *user == "" {
 		log.Fatal("Require user")
