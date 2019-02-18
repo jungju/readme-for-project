@@ -8,7 +8,7 @@ before_install:
 
 deploy:
   provider: script
-  script: readme-for-projects -token=$GITHUB_TOKEN -user=jungju -repo=readme-for-projects -file=./README.md
+  script: readme-for-projects -token="$GITHUB_TOKEN" -user=jungju -repo=readme-for-projects -file=./README.md
     # - go build -o rfp
     # - ./readme-for-projects -token=$GITHUB_TOKEN -user=jungju -repo=readme-for-projects -file=./README.md
     # - cat ./README.md
