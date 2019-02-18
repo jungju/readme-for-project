@@ -8,7 +8,9 @@ before_install:
 
 deploy:
   provider: script
-  script:
-    - go build -o rfp
-    - ./readme-for-projects -token=$GITHUB_TOKEN -user=jungju -repo=readme-for-projects -file=./README.md
-    - cat ./README.md
+  script: ./readme-for-projects -token=$GITHUB_TOKEN -user=jungju -repo=readme-for-projects -file=./README.md
+    # - go build -o rfp
+    # - ./readme-for-projects -token=$GITHUB_TOKEN -user=jungju -repo=readme-for-projects -file=./README.md
+    # - cat ./README.md
+  on:
+    all_branches: true
