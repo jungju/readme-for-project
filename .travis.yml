@@ -1,5 +1,1 @@
 language: GO
-
-deploy:
-  provider: script
-  script: readme-for-projects -user=jungju -repo=readme-for-projects -file=./README.md
