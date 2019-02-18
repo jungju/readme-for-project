@@ -1,3 +1,5 @@
 language: GO
 
-script: readme-for-projects token=GITHUB_TOKEN -user=jungju -repo=readme-for-projects -file=./README.md
+deploy:
+  provider: script
+  script: readme-for-projects -user=jungju -repo=readme-for-projects -file=./README.md
