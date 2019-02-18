@@ -14,3 +14,19 @@ GITHUB_TOKEN={{GITHUB_TOKEN}} readme-for-projects -user={{GITHUB_USER}} -repo={{
 ```
 <!-- rfp:projects:simple1 -->
 ```
+
+## Result
+`` `
+## Projects
+
+### Project1
+`` `
+Description of project1
+`` `
+
+
+### Project2
+`` `
+Description of project2
+`` `
+```
